@@ -1,6 +1,6 @@
 "use client"
 
-import { Home, LineChart, Package, Package2, Settings, ShoppingCart, Users2, DollarSign, FileText, BarChart, Laptop, Hand, HandCoins, PlusCircle, Banknote } from 'lucide-react';
+import { Home, LineChart, Package, Package2, Settings, ShoppingCart, Users2, DollarSign, FileText, BarChart, Laptop, Hand, HandCoins, PlusCircle, Banknote, PiggyBank } from 'lucide-react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
@@ -19,6 +19,7 @@ const Sidebar = () => {
         // { title: "Purchases", path: "/dashboard/purchases", icon: <HandCoins />, roleField: "products" },
         // { title: "Sales", path: "/dashboard/sales", icon: <DollarSign />, roleField: "sales" },
         // { title: "Orders", path: "/dashboard/orders", icon: <ShoppingCart />, roleField: "orders" },
+        { title: "Deposits", path: "/dashboard/deposits", icon: <PiggyBank />, roleField: "deposits" },
         { title: "Expenses", path: "/dashboard/expenses", icon: <FileText />, roleField: "expenses" },
         // { title: "Stocks", path: "/dashboard/stocks", icon: <Package2 />, roleField: "stocks" },
         // { title: "Reports", path: "/dashboard/reports", icon: <BarChart />, roleField: "reports" },
